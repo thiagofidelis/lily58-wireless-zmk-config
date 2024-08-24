@@ -86,8 +86,8 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        shiftados {
-            if-layers = <1 2>;
+        shift {
+            if-layers = <2 1>;
             then-layer = <3>;
         };
     };
